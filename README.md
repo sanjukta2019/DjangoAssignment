@@ -86,15 +86,21 @@ AUTH_USER_MODEL = 'users.CustomUser'
 🔹 User APIs
 Endpoint	Method	Description
 /api/v1/users/	GET	List all users
+
 /api/v1/users/change-password	PUT	Change user password
+
 🔹 Authentication APIs
 Endpoint	Method	Description
+
 /api/v1/rest-auth/login/	POST	Login
+
 /api/v1/rest-auth/logout/	POST	Logout
+
 /api/v1/rest-auth/registration/	POST	Register new user
 🔹 Password Reset APIs
 Endpoint	Method	Description
 /api/v1/password_reset/	POST	Request password reset
+
 /api/v1/reset-password/confirm/	POST	Confirm password reset
 
 📧 Password reset emails are sent using Django’s console email backend (for development).
