@@ -44,9 +44,13 @@ projectdrfx/
 │
 ├── api/
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── models.py
+
 │   ├── urls.py
+
 │   └── views.py
 │
 ├── users/
