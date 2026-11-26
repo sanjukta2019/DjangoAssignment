@@ -55,17 +55,26 @@ projectdrfx/
 │
 ├── users/
 │   ├── admin.py
+
 │   ├── apps.py
+
 │   ├── forms.py
+
 │   ├── models.py
+
 │   ├── serializers.py
+
 │   ├── urls.py
+
 │   └── views.py
 │
 ├── projectdrfx/
 │   ├── settings.py
+
 │   ├── urls.py
+
 │   ├── asgi.py
+
 │   └── wsgi.py
 │
 ├── db.sqlite3
